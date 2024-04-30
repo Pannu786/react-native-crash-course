@@ -3,12 +3,12 @@ import React from 'react';
 
 const Profile = () => {
   return (
-    <View>
-      <Text style={{ fontSize: 30, color: 'red' }}>Profile Mf</Text>
+    <View className='flex-1 items-center justify-center bg-orange-500'>
+      <Text className='text-purple-500 font-extrabold text-4xl '>
+        Profile Mf
+      </Text>
     </View>
   );
 };
 
 export default Profile;
-
-const styles = StyleSheet.create({});

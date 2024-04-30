@@ -1,23 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { Link } from 'expo-router';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Aora!! Pannu Index Page </Text>
+    <View className='flex-1 items-center justify-center bg-black'>
+      <Text className='text-pink-500 tex-4xl'>Aora!! Pannu Index Page </Text>
       <StatusBar style='auto' />
-      <Link href={'/profile'} style={{ color: 'blue' }}>
+      <Link href={'/profile'} className='text-yellow-500 font-extrabold'>
         Click for Link
       </Link>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
