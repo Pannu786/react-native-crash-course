@@ -6,8 +6,8 @@ export default function App() {
     <View className='flex-1 items-center justify-center bg-white'>
       <Text className='font-pblack tex-4xl'>Aora!! Pannu Index Page </Text>
       <StatusBar style='auto' />
-      <Link href={'/profile'} className='text-yellow-500 font-extrabold'>
-        Click for Link
+      <Link href={'/home'} className='text-yellow-500 font-extrabold'>
+        Go To Home
       </Link>
     </View>
   );
