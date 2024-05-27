@@ -9,6 +9,6 @@ export default function App() {
       <Link href={'/home'} className='text-yellow-500 font-extrabold'>
         Go To Home
       </Link>
-    </View>
+    </View> 
   );
 }
