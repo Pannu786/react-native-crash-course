@@ -4,7 +4,13 @@ const TabsLayout = () => {
   return (
     <>
       <Tabs>
-        <Tabs.Screen name='home' />
+        <Tabs.Screen
+          name='home'
+          options={{
+            title: 'Home',
+            headerShown: false,
+          }}
+        />
       </Tabs>
     </>
   );
